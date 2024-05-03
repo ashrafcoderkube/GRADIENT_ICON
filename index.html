@@ -2094,14 +2094,7 @@
             position: relative;
             width: 100%
         }
-        .framer-rehtlj {
-            outline:none;
-            display:flex;
-            flex-direction:column;
-            justify-content:flex-start;
-            flex-shrink:0;
-            transform:none;
-        }
+ 
         .framer-aP3KF .framer-rehtlj,
         .framer-aP3KF .framer-1p2uzl8 {
             --framer-link-text-color: #0099ff;
@@ -3353,18 +3346,22 @@
         data-framer-hydrate-v2="{'routeId':'augiA20Il','localeId':'default'}"
         data-framer-ssr-released-at="2024-04-30T08:51:08.344Z" data-framer-page-optimized-at="2024-05-03T10:17:55.295Z">
         <!--$-->
-        <div class="framer-aP3KF framer-72rtr7" style="min-height:100%;width:auto">
+        <div class="framer-aP3KF framer-72rtr7" style="min-height:100vh;width:auto">
             <header class="framer-1kq5zwa" data-framer-name="Hero" name="Hero">
                 <div class="framer-1omfgfk" data-framer-name="Content" name="Content"><svg class="framer-rehtlj" 
+                    viewBox="0 0 1100 60"
+                    data-framer-component-type="RichTextContainer"
+                    style=" outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none;"
                     >
                     <foreignObject width="100%" height="100%" class="framer-fit-text" transform="scale(1)"
                         style="overflow:visible;transform-origin:center center">
                         <p 
-                        style="--font-selector:R0Y7TWFucm9wZS01MDA=;--framer-font-family:'Manrope', 'Manrope Placeholder', sans-serif;--framer-font-size:14.091896021553751px;--framer-font-weight:500;--framer-letter-spacing:3em;--framer-line-height:1.4em;--framer-text-alignment:right;--framer-text-color:rgb(255, 255, 255);--framer-text-transform:uppercase"
+                        style="--font-selector:R0Y7TWFucm9wZS01MDA=;--framer-font-family:'Manrope', 'Manrope Placeholder', sans-serif;--framer-font-size:16.091896021553751px;--framer-font-weight:500;--framer-letter-spacing:3em;--framer-line-height:1.4em;--framer-text-alignment:right;--framer-text-color:rgb(255, 255, 255);--framer-text-transform:uppercase"
                             class="framer-text" id="today_time"></p>
                     </foreignObject>
                 </svg><svg class="framer-1p2uzl8"
                         style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                        viewBox="0 0 1000 150"
                         >
                         <foreignObject width="100%" height="100%" class="framer-fit-text" transform="scale(1)"
                             style="overflow:visible;transform-origin:center center">
@@ -3730,7 +3727,7 @@
     </div>
     <script src="https://momentjs.com/downloads/moment.js"></script>
     <script>
-        const today = moment().format("dddd - MMM D - YYYY");
+        const today = moment().format("dddd-MMMDD-YYYY");
         document.getElementById("today_time").innerHTML = today;
         const year = new Date().getFullYear();
         document.getElementById("current_year").innerHTML = year;
